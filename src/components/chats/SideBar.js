@@ -25,7 +25,7 @@ export default class SideBar extends Component{
 		return (
 			<div id="side-bar">
 					<div className="heading">
-						<div className="app-name">Our Cool Chat <FAChevronDown /></div>
+						<div className="app-name">Chats <FAChevronDown /></div>
 						<div className="menu">
 							<FAMenu />
 						</div>
