@@ -37,6 +37,7 @@ export default class ChatContainer extends Component {
 
 	// Reset the chat back to only the chat passed in.
 	resetChat = (chat)=>{
+		console.log('resetting the chat')
 		return this.addChat(chat, true)
 	}
 
